@@ -8,20 +8,35 @@ This section describes all features that are shipped with this package.
 Scenario Features
 =================
 
-.. note::
-    This package does not provide any scenario features
+.. autoclass:: balderhub.powersupply.lib.scenario_features.DCPowerSupplyFeature
+    :members:
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.powersupply.lib.scenario_features.MyScenarioFeature
-        :members:
+Instruments
+-----------
 
+.. autoclass:: balderhub.powersupply.lib.scenario_features.DCPowerSupplyInstrument
+    :members:
+
+.. autoclass:: balderhub.powersupply.lib.scenario_features.DCPowerSupplyInstrumentChannel
+    :members:
 
 Setup Features
 ==============
 
-.. note::
-    This package does not provide any setup features.
+Siglent-Devices
+---------------
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.powersupply.lib.setup_features.MySetupFeature
-        :members:
+.. autoclass:: balderhub.powersupply.lib.setup_features.siglent.SiglentSPD3303DCPowerSupplyInstrument
+    :members:
+
+Channel Selection Features
+--------------------------
+
+.. autoclass:: balderhub.powersupply.lib.setup_features.DCPowerSupplyInstrumentChannel1
+    :members:
+
+.. autoclass:: balderhub.powersupply.lib.setup_features.DCPowerSupplyInstrumentChannel2
+    :members:
+
+.. autoclass:: balderhub.powersupply.lib.setup_features.DirtyDcPowerSupplyChannel
+    :members:
